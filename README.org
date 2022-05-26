@@ -1,0 +1,12 @@
+* Details
+Installs the latest feature update for Windows 10.
+The script will refuse to run if you're not on Windows10.
+The following folders are removed since they can cause the update to fail.
+1. C:\$Windows.~WS
+2. C:\$Windows.~BT
+3. C:\$GetCurrent
+
+* Usage
+#+begin_src shell
+./script.ps1
+#+end_src
